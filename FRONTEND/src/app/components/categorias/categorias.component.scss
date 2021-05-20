@@ -1,0 +1,21 @@
+.full-height {
+    height: 900px;
+}
+
+.categoria {
+    margin: 1em;
+    display: grid;
+    justify-content: end;
+}
+div h5 {
+    text-align: center;
+    font-size: 30px;
+}
+div a {
+    background-color: rgb(255, 94, 0);
+    border-color: black;
+}
+div a:hover {
+    background-color:orange;
+    transition: .2s;
+}

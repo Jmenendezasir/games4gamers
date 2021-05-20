@@ -1,0 +1,26 @@
+h1 {
+    color: white;
+    text-align: center;
+}
+.register {
+    display: grid;
+    justify-content: center;
+}
+.register .formulario {
+    color: white;
+}
+.register .form-control {
+    border-radius: 3px;
+    width: 50em;
+}
+.register button {
+    background-color: rgb(255, 94, 0);
+    border-color: black;
+    color: white;
+}
+.register a {
+    text-align: center;
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+}

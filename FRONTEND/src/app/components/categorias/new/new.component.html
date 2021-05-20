@@ -1,0 +1,14 @@
+<h1>Insertar una nueva categoría</h1>
+<div class="insertar">
+    <div class="formulario">
+        <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Nombre de la categoría</label>
+            <input [(ngModel)]="name" type="text" class="form-control" id="exampleFormControlInput1" placeholder="Carreras">
+        </div>
+        <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Breve descripción de la categoría</label>
+            <input [(ngModel)]="description" type="text" class="form-control" id="exampleFormControlInput2" placeholder="Juegos que consisten en...">
+        </div>
+    </div>
+    <button (click)="save()" type="button" class="btn btn-warning">Enviar</button>
+</div>

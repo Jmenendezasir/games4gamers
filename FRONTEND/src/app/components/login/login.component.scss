@@ -1,0 +1,26 @@
+h1 {
+    color: white;
+    text-align: center;
+}
+.login {
+    display: grid;
+    justify-content: center;
+}
+.login .formulario {
+    color: white;
+}
+.login .form-control {
+    border-radius: 3px;
+    width: 50em;
+}
+.login button {
+    background-color: rgb(255, 94, 0);
+    border-color: black;
+    color: white;
+}
+.login a {
+    text-align: center;
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+}

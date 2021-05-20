@@ -1,0 +1,22 @@
+<div class ="container full-height">
+    <div class="row">
+        <div 
+            class="card row" 
+            style="width: 18rem;"
+            *ngFor="let categoria of categorias"
+        >
+                <img src="/assets/{{categoria.name}}.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                <h5 class="card-title">
+                    {{ categoria.name }}
+                </h5>
+                <p class="card-text">
+                    {{ categoria.description }}
+                </p>
+                <a routerLink="/categoria/{{categoria._id}}" class="btn btn-primary">
+                    Ver más
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
