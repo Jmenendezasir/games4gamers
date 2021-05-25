@@ -54,7 +54,7 @@ const routes: Routes = [
     component: RegisterComponent,
   },
   {
-    path: 'registerOk',
+    path: 'register/ok',
     component: RegisterOkComponent,
   },
   {

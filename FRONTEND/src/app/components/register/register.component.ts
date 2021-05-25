@@ -29,7 +29,7 @@ export class RegisterComponent implements OnInit {
           response => {
             console.log(response);
             if(response.status != "error") {
-              this._router.navigateByUrl('/registerOk'); 
+              this._router.navigateByUrl('/register/ok'); 
             }
           },
           error => {
