@@ -30,6 +30,8 @@ app.use(morgan('dev'));
 
 const categorias_routes = require('./routes/categorias');
 const usuarios_routes = require('./routes/usuarios');
+const juegos_routes = require('./routes/juegos');
+
 
 app.use((req, res, next) => {
     res.header('Access-Control-Allow-Origin', '*');
@@ -41,3 +43,4 @@ app.use((req, res, next) => {
 
 app.use('/games4gamers', categorias_routes);
 app.use('/games4gamers', usuarios_routes);
+app.use('/games4gamers', juegos_routes);
